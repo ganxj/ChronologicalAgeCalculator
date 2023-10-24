@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "routes": [
+    {"src": "/article","dest": "https://www.google.com"}
+  ]
+}
