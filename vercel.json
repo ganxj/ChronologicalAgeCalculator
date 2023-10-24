@@ -3,7 +3,7 @@
         { "source": "/article", "destination": "http://153.35.129.253:8000" },
         {
             "source": "/article:match*",
-            "destination": "https://153.35.129.253:8000/article:match*"
+            "destination": "http://153.35.129.253:8000/article:match*"
         }
     ],
     "github": {
