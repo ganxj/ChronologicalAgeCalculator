@@ -1,6 +1,6 @@
 {
     "rewrites": [
-        { "source": "/article", "destination": "http://153.35.129.253:8000" },
+        { "source": "/article", "destination": "http://153.35.129.253:8000/article" },
         {
             "source": "/article:match*",
             "destination": "http://153.35.129.253:8000/article:match*"
