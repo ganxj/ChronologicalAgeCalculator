@@ -1,6 +1,12 @@
 {
-  "version": 2,
-  "routes": [
-    {"src": "/article","dest": "https://www.google.com"}
-  ]
+    "rewrites": [
+        { "source": "/article", "destination": "https://www.google.com" },
+        {
+            "source": "/article:match*",
+            "destination": "https://www.google.com/:match*"
+        }
+    ],
+    "github": {
+        "silent": true
+    }
 }
